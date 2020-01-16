@@ -49,7 +49,7 @@ struct ContentView: View {
                 
             ) {
                 ForEach(favoriteRoutes.routes) { favoriteRoute in
-                    TimeTableCell(route: favoriteRoute, type: "f`avorite")
+                    TimeTableCell(route: favoriteRoute, type: "favorite")
                     .frame(height: 100)
                 }.onDelete(perform: deleteItems)
             }.listRowInsets(EdgeInsets())
